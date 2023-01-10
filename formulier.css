@@ -1,8 +1,16 @@
 body {
-    background-color: #FFEECC;
-    color: rgb(37, 37, 37);
+    background-image: url("bedrijf.png");
+    background-repeat: no-repeat;
+    background-color: #bababa;
+    background-position: center;
+    background-size: 1200px;
+    color: rgb(0, 0, 0);
 }
 .all {
-    border-radius: 30px;
-    text-align: left;
+    text-align: center;
+    background-position:center;
+    background-color: #28282862;
+    background-size: 20px;
+    width: 200px;
+    border-radius: 15px;
 }
