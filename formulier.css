@@ -1,10 +1,12 @@
 body {
+    left: 540px;
+    bottom: 110px;
     position:sticky;
     background-image: url("bedrijf.png");
     background-repeat: no-repeat;
     background-color: #bababa;
     background-position: center;
-    background-size: 1200px;
+    background-size: 850px;
     color: rgb(0, 0, 0);
 }
 .all {
