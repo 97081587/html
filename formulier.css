@@ -1,4 +1,5 @@
 body {
+    position:sticky;
     background-image: url("bedrijf.png");
     background-repeat: no-repeat;
     background-color: #bababa;
