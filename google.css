@@ -1,11 +1,18 @@
 .top {
-
+ display: flex;
+ justify-content: space-between;
 }
 
 .mid {
-
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .bot {
-    
+ display: flex;
+ align-items: flex-end;
+ border: #f2f2f2;
+ background: #f2f2f2;
 }
