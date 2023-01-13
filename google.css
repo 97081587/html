@@ -1,5 +1,6 @@
 body {
- background-color: #ffffff;
+ background-color: #ffffff; 
+ margin: 20px;
 }
 
 .top {
@@ -8,8 +9,7 @@ body {
 }
 
 .a1 .a2 {
- font-size:smaller;
- margin: 20px;
+ font-size: 50%;
 }
 
 .mid {
@@ -23,19 +23,20 @@ body {
 
 }
 
-
 .bot {
  display: flex;
  flex-direction: column;
  color: #70757A;
- align-items: stretch;
- align-content: flex-end;
 }
 
 .c1 {
-    display: flex;
+ display: flex;
  background: #f2f2f2;
  height: 140px;
+}
+
+.c2 {
+ display: flex;
 }
 
 * {
