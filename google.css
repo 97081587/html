@@ -15,7 +15,7 @@ body {
  display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: space-between;
+ justify-content: center;
 }
 
 .b1 .b2{
@@ -28,13 +28,13 @@ body {
  flex-direction: column;
  color: #70757A;
  align-items: stretch;
+ align-content: flex-end;
 }
 
 .c1 {
- border: #f2f2f2;
+    display: flex;
  background: #f2f2f2;
  height: 140px;
- bottom: 14px;
 }
 
 * {
