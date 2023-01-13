@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+ background-color: #ffffff;
 }
 
 .top {
@@ -8,7 +8,8 @@ body {
 }
 
 .a1 .a2 {
-
+ font-size:smaller;
+ margin: 20px;
 }
 
 .mid {
