@@ -9,7 +9,7 @@ body {
 }
 
 .a1 .a2 {
- font-size: 50%;
+
 }
 
 .mid {
@@ -31,12 +31,18 @@ body {
 
 .c1 {
  display: flex;
+ flex-direction: column;
  background: #f2f2f2;
  height: 140px;
 }
 
 .c2 {
  display: flex;
+ justify-content: space-between;
+}
+
+.c3 {
+ 
 }
 
 * {
