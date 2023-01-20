@@ -11,6 +11,7 @@ body {
 .top {
  display: flex;
  justify-content: space-between;
+
 }
 
 .a2 {
@@ -70,4 +71,5 @@ body {
 
 * {
  font-family: roboto;
+ box-sizing:border-box;
 }
