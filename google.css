@@ -9,7 +9,6 @@ body {
 }
 
 .a1 .a2 {
-
 }
 
 .mid {
@@ -20,7 +19,6 @@ body {
 }
 
 .b1 .b2{
-
 }
 
 .bot {
@@ -38,11 +36,17 @@ body {
 
 .c2 {
  display: flex;
- justify-content: space-between;
+ flex-direction: row;
 }
 
 .c3 {
- 
+ display: flex;
+ justify-content: space-around;
+}
+
+.c4 {
+ display: flex;
+ flex-direction: row;
 }
 
 * {
