@@ -13,9 +13,6 @@ body {
  justify-content: space-between;
 }
 
-.a1 .a2 {
-}
-
 .mid {
  display: flex;
  flex-direction: column;
@@ -28,10 +25,15 @@ body {
  justify-content: space-between;
 }
 
+.b3 {
+ display: flex;
+ flex-direction: row;
+}
+
 .bot {
  display: flex;
- flex-direction: column;
  color: #70757A;
+ flex-direction: column;
 }
 
 .c1 {
