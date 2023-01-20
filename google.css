@@ -13,6 +13,11 @@ body {
  justify-content: space-between;
 }
 
+.a2 {
+ display: flex;
+ flex-direction: row;
+}
+
 .mid {
  display: flex;
  flex-direction: column;
