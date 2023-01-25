@@ -3,17 +3,13 @@
 }
 
 nav {
-    float: left;
-    width: 30%;
-    height: 300px;
+    display: flex;
     background: #ccc;
-    padding: 20px;
 }
 
 footer {
+    display: flex;
     background-color: #777;
-    padding: 10px;
-    text-align: center;
     color: white;
   }
   
