@@ -1,0 +1,89 @@
+body {
+    padding: 20px;
+    background-color: #F2F2F2;
+    color: black;
+    font-size: 21px;
+}
+
+.titel {
+    text-align: center;
+    font-size: 70px;
+}
+
+.foto {
+    position: sticky;
+    bottom: 5px;
+    left: 1445px;
+    border-radius:999px;
+    height: 40px;
+    width: 40px;
+}
+
+.foto:hover {
+    height: 127px;
+    width: 127px;
+}
+
+.opleidingen {
+    text-align: left;
+    border: solid #FCFCFC;
+    background: #FCFCFC;
+    border-radius: 30px;
+    height: 415px;
+}
+
+.talen {
+    text-align: left;
+    border: solid #FCFCFC;
+    background: #FCFCFC;
+    border-radius: 30px;
+    height: 210px;
+}
+
+.hobby {
+    text-align: left;
+    border: solid #FCFCFC;
+    background: #FCFCFC;
+    border-radius: 30px;
+    height: 100px;
+}
+.contact {
+    text-align: left;
+    border: solid #FCFCFC;
+    background: #FCFCFC;
+    border-radius: 30px;
+    height: 125px;
+}
+
+.dark-mode {
+    background-color: #080808;
+    color: #FCFCFC;
+}
+
+.dark-mode .opleidingen {
+    border: 1px solid #252525;
+    background: #252525;
+}
+
+.dark-mode .talen {
+    border: 1px solid #252525;
+    background: #252525;
+}
+.dark-mode .hobby {
+    border: 1px solid #252525;
+    background: #252525;
+}
+.dark-mode .contact {
+    border: 1px solid #252525;
+    background: #252525;
+}
+
+.knop {
+    position: sticky;
+    bottom: 99999px;
+    left: 99999px;
+}
+
+* {
+    font-family: 'roboto';
+}
