@@ -7,6 +7,14 @@ nav {
     background: #ccc;
 }
 
+aside {
+    display: flex;
+}
+
+article {
+    display: flex;
+}
+
 footer {
     display: flex;
     background-color: #777;
