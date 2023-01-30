@@ -4,12 +4,10 @@
 
 nav {
     display: flex;
-    flex-direction: row;
 }
 
 header {
  display: flex;
- text-align: center;
 }
 
 aside {
@@ -20,7 +18,9 @@ article {
     display: flex;
 }
 
-footer {
+.footer {
     display: flex;
+    text-align: center;
+    padding: 10px;
   }
   
