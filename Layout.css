@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
-nav {
+.navlijst {
     display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -14,8 +15,9 @@ aside {
     display: flex;
 }
 
-article {
+.artikel {
     display: flex;
+    flex-direction: column;
 }
 
 .footer {
