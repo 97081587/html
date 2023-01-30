@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 
-header {
- display: flex;
- text-align: center;
-}
-
 nav {
     display: flex;
     flex-direction: row;
+}
+
+header {
+ display: flex;
+ text-align: center;
 }
 
 aside {
