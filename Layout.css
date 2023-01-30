@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
-nav {
+header {
+ display: flex;
+
+}
+
+.lijst {
     display: flex;
-    background: #ccc;
+    flex-direction: row;
 }
 
 aside {
@@ -17,7 +22,6 @@ article {
 
 footer {
     display: flex;
-    background-color: #777;
-    color: white;
+    
   }
   
