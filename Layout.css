@@ -22,7 +22,7 @@ aside {
     padding: 20px;
 }
 
-.artikel {
+article {
     display: flex;
     flex-direction: column;
 }
