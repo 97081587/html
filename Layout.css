@@ -3,11 +3,25 @@
     font-family: 'Roboto';
 }
 
-.navlijst {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(150, 150, 150);
+}
+
+li a:hover {
+    background-color: rgb(101, 101, 101);
 }
 
 header {
@@ -19,7 +33,7 @@ aside {
     display: flex;
     flex-direction: column;
     text-align: right;
-    padding: 20px;
+    padding: 0px;
 }
 
 article {
