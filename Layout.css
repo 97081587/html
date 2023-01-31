@@ -24,9 +24,10 @@ aside {
     flex-direction: column;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
-    text-align: end;
+    position: fixed;
+    bottom: 0px;
   }
   
