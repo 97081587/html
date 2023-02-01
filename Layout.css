@@ -46,8 +46,12 @@ article {
 }
 
 footer {
-    display: flex;
+    bottom: 0;
     position: fixed;
-    bottom: 0px;
+    width: 100%; 
+}
+
+.footer {
+    text-align: center;
   }
   
