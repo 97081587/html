@@ -32,7 +32,7 @@ li a {
 li a:hover {
     background-color: rgb(141, 141, 141);
 }
-
+/* einde navlijst */
 aside {
     display: flex;
     flex-direction: column;
