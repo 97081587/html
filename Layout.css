@@ -17,6 +17,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
+    position: sticky;
 }
 
 li {
@@ -48,12 +49,46 @@ article {
     flex-direction: column;
     color: #ffe81f;
 }
-
+/* afbeelding + animatie */
 .tatooine {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
+.fade-in {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+  
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+/* einde */ 
 footer {
     bottom: 0;
     position: fixed;
