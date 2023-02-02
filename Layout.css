@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Flow circular';
+    font-family: 'Roboto Mono';
     background-color:rgb(0, 0, 0);
 }
 
@@ -26,6 +26,7 @@ li {
 
 li a {
     display: block;
+    border-radius: 200px;
     padding: 8px;
     background-color: rgb(0, 0, 0);
     text-decoration: none;
@@ -34,7 +35,7 @@ li a {
 
 li a:hover {
     background-color: rgb(255, 255, 255);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 /* einde navlijst */
 aside {
