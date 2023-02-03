@@ -86,14 +86,19 @@ article {
   }
 /* einde */ 
 /* afbeeldingen van layout2 */
+.bussin {
+    display: flex;
+    justify-content: space-around;
+}
+
 .Bus1 {
-    width: 170px;
-    height: 100px; 
+    width: 260px;
+    height: 190px; 
 }
 
 .Bus2 {
-    width: 170px;
-    height: 100px;
+    width: 260px;
+    height: 190px;
 }
 /* einde */
 /* afbeeldingen van layout5 */
