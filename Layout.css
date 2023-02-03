@@ -39,7 +39,7 @@ li a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-/* einde navlijst */
+/* einde */
 article {
     display: flex;
     flex-direction: column;
@@ -85,6 +85,17 @@ article {
     100% { opacity: 1; }
   }
 /* einde */ 
+/* afbeeldingen van layout2 */
+.bus1 {
+    width: 10px;
+    height: 10px; 
+}
+
+.bus2 {
+    width: 10px;
+    height: 10px;
+}
+/* einde */
 footer {
     bottom: 0;
     position:relative;
