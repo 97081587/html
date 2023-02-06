@@ -62,18 +62,33 @@ li a:hover {
 /* einde */
 /* dropdown */
 .dropdown {
-    position: relative;
-    display: inline-block;
+    float: left;
+}
+
+.dropdown .dropbtn {
+    color: #ffe81f;
+}
+
+.dropdown:hover {
+    background-color: white;
+    color: white;
 }
 
 .content {
-    display: none;
-    position: absolute;
+
 }
 
-.content a:hover {background-color: white;}
+.content a {
 
-.dropdown:hover .content {display: block;}
+}
+
+.content a:hover {
+
+}
+
+.dropdown:hover .content {
+    display: block;
+}
 /* einde */
 /* layout1 afbeelding + animatie */
 .Naboo {
