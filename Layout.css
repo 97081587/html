@@ -40,10 +40,6 @@ li a:hover {
     color: rgb(255, 255, 255);
 }
 /* einde */
-article {
-    display: flex;
-    flex-direction: column;
-}
 /* layout1 afbeelding + animatie */
 .Naboo {
     width: 400px;
@@ -58,7 +54,6 @@ article {
     -ms-animation: fadeIn 3s;
 }
   
-
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -117,4 +112,8 @@ footer {
     text-align: center;
     color: gray;
   }
-  
+
+article {
+    display: flex;
+    flex-direction: column;
+}
