@@ -15,8 +15,8 @@ header {
 
 footer {
     bottom: 0;
-    position:absolute;
-    width: 99%; 
+    position:sticky;
+    width: 100%; 
 }
 
 .footer {
