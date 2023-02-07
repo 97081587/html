@@ -24,41 +24,43 @@
      </div>
      <div class="inhoud2">
       <div class="rij">
-         <img src="naboo1.jpeg" alt="naboo1">
-         <img src="naboo3.webp" alt="naboo2">
-         <img src="naboo4.jpg" alt="naboo3">
-         <img src="naboo5.jpg" alt="naboo4">
-         <img src="naboo6.webp" alt="naboo5">
-      </div>
+        <img src="naboo5.jpg" alt="naboo4" style="width: 100%;">
+        <img src="naboo3.webp" alt="naboo2" style="width: 100%;">
+        <img src="naboo6.webp" alt="naboo5" style="width: 100%;">
+        <img src="naboo1.jpeg" alt="naboo1" style="width: 100%;">
+        <img src="naboo4.jpg" alt="naboo3" style="width: 100%;">
+     </div>
+     <div class="rij">
+      <img src="naboo3.webp" alt="naboo2" style="width: 100%;">
+      <img src="naboo4.jpg" alt="naboo3" style="width: 100%;">
+      <img src="naboo1.jpeg" alt="naboo1" style="width: 100%;">
+      <img src="naboo6.webp" alt="naboo5" style="width: 100%;">
+      <img src="naboo5.jpg" alt="naboo4" style="width: 100%;">  
+     </div>
      </div>
     <div class="footer">
      <footer>
        <p>Oscar 2023</p>
      </footer> 
     </div>
-
-<button onclick="one()">1</button>
-<button onclick="two()">2</button>
-
+<!--galerij grid van het internet-->
 <script>
-// Get the elements with class="column"
 var elements = document.getElementsByClassName("rij");
 
-// Declare a "loop" variable
-var i;
-
-// Full-width images
-function one() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
 function two() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "50%";
   }
+}
+
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
 }
 </script>
 
