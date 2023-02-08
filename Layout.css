@@ -32,9 +32,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 
 li {
