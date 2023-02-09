@@ -35,7 +35,7 @@ body {
  flex-direction: row;
 }
 
-footer {
+footer, .onder {
     bottom: 0;
     position:fixed;
     width: 100%; 
@@ -45,7 +45,8 @@ footer {
  display: flex;
  flex-direction: column;
  background: #f2f2f2;
- height: 140px;
+ height: 105px;
+ width:auto;
 }
 
 .onder {
