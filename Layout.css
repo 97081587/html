@@ -5,12 +5,6 @@
     color: #ffe81f;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
-
 article {
     display: flex;
     flex-direction: column;
