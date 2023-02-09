@@ -42,11 +42,10 @@ footer, .onder {
 }
 
 .c1 {
- display: flex;
- flex-direction: column;
+ padding: 15px;
  background: #f2f2f2;
- height: 105px;
- width:auto;
+ height: 100px;
+ width: 99999px;
 }
 
 .onder {
@@ -61,7 +60,7 @@ footer, .onder {
 
 .c3 {
  display: flex;
- justify-content: space-evenly;
+ justify-content: space-between;
 }
 
 .c4 {
