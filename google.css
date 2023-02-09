@@ -23,6 +23,7 @@ body {
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ position: relative; top: 130px;
 }
 
 .midden{
@@ -35,7 +36,7 @@ body {
  flex-direction: row;
 }
 
-footer, .onder {
+.onder{
     bottom: 0;
     position:fixed;
     width: 100%; 
@@ -45,7 +46,6 @@ footer, .onder {
  padding: 15px;
  background: #f2f2f2;
  height: 100px;
- width: 99999px;
 }
 
 .onder {
