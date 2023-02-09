@@ -23,6 +23,7 @@ body {
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ bottom: 50;
 }
 
 .midden{
@@ -35,10 +36,10 @@ body {
  flex-direction: row;
 }
 
-.bot {
- display: flex;
- color: #70757A;
- flex-direction: column;
+footer {
+    bottom: 0;
+    position:sticky;
+    width: 100%; 
 }
 
 .c1 {
