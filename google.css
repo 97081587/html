@@ -26,7 +26,7 @@ body {
  position: relative; top: 130px;
 }
 
-.midden{
+.mid2{
  display: flex;
  justify-content: space-between;
 }
@@ -36,7 +36,7 @@ body {
  flex-direction: row;
 }
 
-.onder{
+.bot {
     bottom: 0;
     position:fixed;
     width: 100%; 
@@ -48,7 +48,7 @@ body {
  height: 100px;
 }
 
-.onder {
+.bot2 {
  display: flex;
  justify-content: space-between;
 }
