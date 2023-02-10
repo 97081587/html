@@ -37,7 +37,8 @@ body {
     flex-direction: row;
 }
 
-.bot {
+.footer {
+    left:0;
     bottom: 0;
     position: fixed;
     width: 100%; 
@@ -45,14 +46,8 @@ body {
     height: 95px;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 .bot2 {
-    display: flex;
+    text-align: center;
 }
 
 .c2 {
