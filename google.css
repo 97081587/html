@@ -44,23 +44,10 @@ body {
     width: 100%; 
     background: #f2f2f2;
     height: 95px;
+    margin: 20px;
 }
 
 .bot2 {
-    text-align: center;
-}
-
-.c2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.c3 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.c4 {
     display: flex;
     flex-direction: row;
 }
