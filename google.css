@@ -14,14 +14,12 @@ body {
 }
 
 .a1 {
-    background-color: #ffffff;
     color: #202124;
     text-decoration: none;
     font-size: 15px;
 }
 
 .a2 {
-    background-color: #ffffff;
     color: #202124;
     text-decoration: none;
     font-size: 15px;
@@ -58,8 +56,10 @@ body {
 }
 
 .b2 {
+    text-decoration: none;
     background-color: #f8f9fa;
     border-radius: 4px;
+    height: 10px;
 }
 
 .b3 {
@@ -76,14 +76,27 @@ body {
     height: 95px;
 }
 
+.c1 {
+    margin: 10px;
+}
+
 .bot2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c2 {
     display: flex;
     flex-direction: row;
 }
 
 .c3 {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
+}
+
+.foto {
+    height: 15px;
+    width: 15px;
 }
 
 .c4 {
