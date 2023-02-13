@@ -17,7 +17,6 @@ body {
 .a1 {
     color: #202124;
     text-decoration: none;
-
 }
 
 .a2 {
@@ -77,13 +76,13 @@ body {
     color: #70757A;
 }
 
-.c1 {
-    margin: 15px;
-}
-
 .bot2 {
     display: flex;
     justify-content: space-between;
+}
+
+.bot3 {
+    border: 15px;
 }
 
 .foto {
