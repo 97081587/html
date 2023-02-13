@@ -81,10 +81,11 @@ body {
 .bot2 {
     display: flex;
     justify-content: space-between;
+    color: #70757A;
 }
 
 .bot3 {
-    border: 15px;
+    font-size: 14px;
 }
 
 .foto {
