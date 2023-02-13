@@ -26,8 +26,8 @@ body {
 }
 
 .waffle {
-    height: 21px;
-    width: 21px;
+    height: 19px;
+    width: 20px;
 }
 
 .inloggen {
@@ -35,8 +35,6 @@ body {
     color: white;
     border-radius: 4px;
     text-decoration: none;
-    width: 95px;
-    height: 35px;
 }
 
 .mid {
