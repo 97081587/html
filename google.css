@@ -14,16 +14,17 @@ body {
     font-size: 15px;  
 }
 
-.a1 {
+.over, .store {
     color: #202124;
 }
 
-.a2 {
+.email, .afbeelding {
+    font-size: 13px;
     color: #202124;
 }
 
 .waffle {
-    height: 14px;
+    height: 15px;
     width: 15px;
 }
 
@@ -45,10 +46,6 @@ body {
     justify-content: center;
 }
 
-.search {
-    
-}
-
 .b1 {
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -64,6 +61,10 @@ body {
     text-align: center;
     height: 30px;
     width: 125px;
+}
+
+.gok {
+    color:#202124;
 }
 
 .b3 {
@@ -82,10 +83,13 @@ body {
     color: #70757A;
 }
 
+.footerkleur {
+    color: #70757A;
+}
+
 .bot2 {
     display: flex;
     justify-content: space-between;
-    color: #70757A;
 }
 
 .bot3 {
