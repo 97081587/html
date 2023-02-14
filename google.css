@@ -83,13 +83,24 @@ body {
     color: #70757A;
 }
 
+hr {
+    height: 1px;
+    border-width: 0;
+    background-color: #DADCE0;
+}
+
 .footerkleur {
     color: #70757A;
+}
+
+.c1 {
+    margin: 15px;
 }
 
 .bot2 {
     display: flex;
     justify-content: space-between;
+    margin:15px;
 }
 
 .bot3 {
